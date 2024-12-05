@@ -1,0 +1,272 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+#upheader{
+    background-color: #2f3239;
+    width: 100%;
+    height: 30px;
+    margin: 0px;
+}
+header{
+    margin:0px;
+}
+.thisPage{
+    background-color: #ff7360;
+    height: 30px;
+}
+#header{
+    display: flex;
+    background-color:#373b44;
+    justify-content:flex-start;
+    align-items: center;
+    height: 70px;
+    margin: 0px;
+    padding-bottom: 0px;
+}
+#LogoAndTitle{
+    display: flex;
+    width: 50%;
+    margin-left: 20px;
+    h3{
+        color: white;
+        margin-left: 10px
+    }
+    
+}
+#logo{
+    width:4%;
+}
+#PagesInFooter{
+    display: flex;
+    width: 50%;
+    a{
+    color: white;
+    text-decoration: none;/* ------ */
+    padding: 20px;
+    }
+   
+}
+
+
+#StartContent{
+    margin: 0px;
+    padding: 0px 390px 0px 390px; 
+    background-color: #ff7360;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    height: 400px;
+}
+.box{
+    padding:5px 20px 5px 20px;
+}
+.content1{
+    width: 50%;
+   
+}
+#Content{
+    background-color: #f3f3f3;
+    height: 300px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:center; 
+     /*catch the content*/
+
+}
+#Content div{
+    margin: 15px;
+    border-radius: 10px;
+    background-color: white;
+    border:1pxs solid #221c1c;
+    box-shadow:#373b44;
+    
+}
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: #464646;
+    
+    i{
+        font-size: 100px;
+        margin: 20px;
+    }
+}
+
+/* ------------------- */
+/* BlogPage */
+#StartContentBolg{
+    background-color: #f3f3f3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom:50px;
+}
+#ContentBlog{
+    display: flex;
+}
+.location{
+    background-color: #ff7360;
+    margin: 0px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    h3{
+        margin:0px 0px 0px 70px ;
+        span{
+            color: white;
+        }
+    }
+}
+
+.infoContent{
+    
+    display: flex;
+    margin-top: 10px;
+        .personInfo{
+        width:30%;
+        display: flex;
+        flex-direction: column;
+            margin-left: 90px;
+        p{
+            margin: 10px;
+        }
+        div{
+            display: flex;
+            align-items: center;
+            justify-content:left;
+        }
+        }
+        .personContent{
+        width:70%;
+        img{
+            width: 100%;
+        }
+        button{
+            width:20%;
+            height: 8%;
+            margin: 10px 10px 40px 10px;
+        }
+    }
+}
+.onePerson{
+    width:70%;
+    hr{
+        width: 80%;
+        margin-right:0px;
+        
+    }
+}
+
+.sideBar{
+    input{
+        width:40%;
+        height:30px;
+        margin-bottom:10px;
+    }
+    width:30%;
+    margin-left:40px;
+    hr{
+        width:40%;
+        margin-left:0px;
+    }
+
+}
+.category {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 40%;
+    img{
+        width: 5%;
+    }
+}
+.category-item {
+    border-bottom: 1px solid #cccccc;
+    border-bottom-style: dashed;
+    padding: 10px;
+    
+}
+.details {
+    display: none;
+    padding: 10px;
+    background: #f9f9f9;
+}
+.category-item.active .details {
+    display: block;
+}
+
+
+/* ------------------------ */
+/* features page   */
+.cards{
+    width:70%;
+    display: flex;
+    
+    
+}
+
+.oneCard{
+    flex-direction: column;
+    border: 1px solid black;
+    width:20%;
+    margin: 50px;
+    text-align:center;
+    h1{
+        color: #ff7360;
+        margin: 0px 0px 0px 0px ;
+        background-color: rgb(214, 214, 214);
+        height:50px;
+        
+    }
+    .row{
+        margin: 5px 0px 0px 0px;
+        border-bottom:1px solid #2f3239;
+    }
+    button{
+        width: 100%;
+        color: white;
+        background-color: #27292e;
+    }
+}
+.footer{
+    margin-top:130px;
+}
+
+
+/* ------------------------------------------ */
+/* about page */
+.ourTeam{
+    display: flex;
+    margin: 0% 10% 0% 10%;
+    width:80%;
+    align-items: center;
+    background-color:#ff7360 ;
+    padding-left: 0px;
+    i{
+         
+        margin: 0px 20px 0px 20px;
+        width: 2%;
+
+    }
+    h4{
+        width: 98%;
+    }
+}
+
+#group{
+    display: flex;
+    justify-content: center;
+}
+.profile{
+    margin: 30px;
+    width:300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.df{
+    color: #929292;
+}
